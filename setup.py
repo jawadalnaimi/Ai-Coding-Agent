@@ -21,6 +21,11 @@ setup(
         "einops>=0.6.1",
         "colorama>=0.4.6",
         "rich>=13.4.2",
+        "fastapi>=0.100.0",
+        "uvicorn>=0.22.0",
+        "pydantic>=2.0",
+        "python-dotenv>=1.0.0",
+        "requests>=2.31.0",
     ],
     extras_require={
         "dev": [
@@ -36,12 +41,12 @@ setup(
             "ai-code=src.main:main",
         ],
     },
-    author="Your Name",
-    author_email="your.email@example.com",
+    author="AI Coding Agent Team",
+    author_email="example@example.com",
     description="Local AI coding agent using Claude 3.5 and Qwen models",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
-    url="https://github.com/yourusername/ai-coding-agent",
+    url="https://github.com/jawadalnaimi/Ai-Coding-Agent",
     classifiers=[
         "Development Status :: 3 - Alpha",
         "Intended Audience :: Developers",
